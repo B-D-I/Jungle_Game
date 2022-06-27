@@ -59,10 +59,10 @@ abstract class KeyWindow extends View implements KeyListener {
     // throws exception to JPanel
     private BufferedImage setBackgroundType() throws IOException {
         BufferedImage image = switch (backgroundType) {
-            case "loggedOutPage" -> ImageIO.read(new File("src\\main\\java\\images\\TitleScreen.jpg"));
-            case "loggedInPage" -> ImageIO.read(new File("src\\main\\java\\images\\LoggedInScreen.jpg"));
-            case "gameBackground" -> ImageIO.read(new File("src\\main\\java\\images\\jungleBackground2.jpg"));
-            case "gameOver" -> ImageIO.read(new File("src\\main\\java\\images\\JGameOver2.jpg"));
+            case "loggedOutPage" -> ImageIO.read(new File("out\\artifacts\\Jungle_Game_jar\\images\\TitleScreen.jpg"));
+            case "loggedInPage" -> ImageIO.read(new File("out\\artifacts\\Jungle_Game_jar\\images\\LoggedInScreen.jpg"));
+            case "gameBackground" -> ImageIO.read(new File("out\\artifacts\\Jungle_Game_jar\\images\\jungleBackground2.jpg"));
+            case "gameOver" -> ImageIO.read(new File("out\\artifacts\\Jungle_Game_jar\\images\\JGameOver2.jpg"));
             default -> null;
         };
         return image;

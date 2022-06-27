@@ -3,7 +3,7 @@ package game;
 import javax.swing.*;
 import java.awt.*;
 
-abstract class View extends Main {
+abstract class View extends Effects{
 
     // window icon on all windows
     private final Image icon = new ImageIcon("src\\glos\\S4008324\\Images\\lizard.png").getImage();

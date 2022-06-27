@@ -8,7 +8,7 @@ import java.awt.event.ActionListener;
 import java.awt.event.KeyEvent;
 import java.awt.event.KeyListener;
 
-public class Controller extends Main implements KeyListener, ActionListener {
+public class Controller extends Effects implements KeyListener, ActionListener {
 
     /**
      * This Controller class is designed to implement EventListener Interfaces, such as KeyListener, MouseListener and

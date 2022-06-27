@@ -1,6 +1,6 @@
 package game;
 
-public abstract class GameObject extends Model{
+public abstract class GameObject extends Effects{
 
     private boolean alive;
     // object projectile array
