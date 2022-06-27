@@ -17,6 +17,8 @@ public class Database {
         try {
             Class.forName("org.sqlite.JDBC");
             String url = "jdbc:sqlite:src\\main\\java\\database\\JungleGameDB.db";
+            // if executing .jar file, use below path >>
+//            String url = "jdbc:sqlite:database\\JungleGameDB.db";
             c = DriverManager.getConnection(url);
             c.setAutoCommit(false);
         } catch (ClassNotFoundException | SQLException e) {
@@ -33,6 +35,8 @@ public class Database {
         try {
             Class.forName("org.sqlite.JDBC");
             String url = "jdbc:sqlite:src\\main\\java\\database\\JungleGameDB.db";
+            // if executing .jar file, use below path >>
+//            String url = "jdbc:sqlite:database\\JungleGameDB.db";
             c = DriverManager.getConnection(url);
             c.setAutoCommit(false);
         } catch (ClassNotFoundException | SQLException e) {

@@ -4,19 +4,23 @@ import javax.swing.*;
 
 abstract class Effects extends JFrame {
 
-    // SOUND EFFECTS
-    String click = "out\\artifacts\\Jungle_Game_jar\\music\\click.wav";
-    String arrow = "out\\artifacts\\Jungle_Game_jar\\music\\arrow2.wav";
-    String baseball = "out\\artifacts\\Jungle_Game_jar\\music\\baseball_hit.wav";
+    String path = "out\\artifacts\\Jungle_Game_jar\\resources\\";
 
-    String birds = "out\\artifacts\\Jungle_Game_jar\\music\\bird_chirping2.wav";
-    String gameOverSound = "out\\artifacts\\Jungle_Game_jar\\music\\game_over.wav";
-    String guns = "out\\artifacts\\Jungle_Game_jar\\music\\gunshots2_x.wav";
-    String monkey = "out\\artifacts\\Jungle_Game_jar\\music\\monkey2.wav";
-    String pig = "out\\artifacts\\Jungle_Game_jar\\music\\pig.wav";
-    String arnold = "out\\artifacts\\Jungle_Game_jar\\music\\arnold.wav";
-    String scarface = "out\\artifacts\\Jungle_Game_jar\\music\\scarface.wav";
-    String hail = "out\\artifacts\\Jungle_Game_jar\\music\\hail.wav";
-    String birdCaw = "out\\artifacts\\Jungle_Game_jar\\music\\bird_caw2.wav";
+    // if executing .jar file, use below path >>
+//    String path = "resources\\";
+
+    // SOUND EFFECTS
+    String click = path+"music\\click.wav";
+    String arrow = path+"music\\arrow2.wav";
+    String baseball = path+"music\\baseball_hit.wav";
+    String birds = path+"music\\bird_chirping2.wav";
+    String gameOverSound = path+"music\\game_over.wav";
+    String guns = path+"music\\gunshots2_x.wav";
+    String monkey = path+"music\\monkey2.wav";
+    String pig = path+"music\\pig.wav";
+    String arnold = path+"music\\arnold.wav";
+    String scarface = path+"music\\scarface.wav";
+    String hail = path+"music\\hail.wav";
+    String birdCaw = path+"music\\bird_caw2.wav";
 
 }

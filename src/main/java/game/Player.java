@@ -50,7 +50,7 @@ public class Player extends GameObject {
 
     public void loadLizardImage() {
         try {
-            ImageIcon player =new ImageIcon("src\\main\\java\\images\\lizard.png");
+            ImageIcon player =new ImageIcon(path+"images\\lizard.png");
             playerOne = player.getImage();
         } catch (Exception e){
             System.out.println(e);
@@ -58,7 +58,7 @@ public class Player extends GameObject {
     }
     public void loadPigImage() {
         try {
-            ImageIcon player =new ImageIcon("src\\main\\java\\images\\pig.png");
+            ImageIcon player =new ImageIcon(path+"images\\pig.png");
             playerOne = player.getImage();
         } catch (Exception e){
             System.out.println(e);
@@ -66,7 +66,7 @@ public class Player extends GameObject {
     }
     public void loadMonkeyImage() {
         try {
-            ImageIcon player =new ImageIcon("src\\main\\java\\images\\monkey.png");
+            ImageIcon player =new ImageIcon(path+"images\\monkey.png");
             playerOne = player.getImage();
         } catch (Exception e){
             System.out.println(e);

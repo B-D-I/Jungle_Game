@@ -1,6 +1,5 @@
 package game;
 
-
 /**
  * The 'Jungle Attack' game provides an interactive solo or multiplayer GUI game, with database storage for user and leaderboard information.
  *
@@ -10,8 +9,6 @@ package game;
  */
 
 public class Main {
-
-
 
     public static void main(String[] args) {
         // home page

@@ -23,7 +23,7 @@ public class Enemy extends GameObject{
      */
     public void loadImage() {
         try {
-            ImageIcon enemyImageOne =new ImageIcon("src\\main\\java\\images\\eagle.png");
+            ImageIcon enemyImageOne =new ImageIcon(path+"images\\eagle.png");
             enemyEagle = enemyImageOne.getImage();
             enemyEagle = enemyEagle.getScaledInstance(150,150, Image.SCALE_SMOOTH);
         } catch (Exception e){

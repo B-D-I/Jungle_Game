@@ -6,7 +6,7 @@ import java.awt.*;
 abstract class View extends Effects{
 
     // window icon on all windows
-    private final Image icon = new ImageIcon("src\\glos\\S4008324\\Images\\lizard.png").getImage();
+    private final Image icon = new ImageIcon("out\\artifacts\\Jungle_Game_jar\\resources\\images\\lizard.png").getImage();
 
     public View(){
         setVisible(true);
